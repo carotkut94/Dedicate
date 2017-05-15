@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.example.rajora_sd.dedicate.MainActivity">
+
+    <me.itangqi.waveloadingview.WaveLoadingView
+            android:id="@+id/waveLoadingView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:wlv_borderColor="@android:color/background_dark"
+            app:wlv_borderWidth="3dp"
+            android:layout_centerInParent="true"
+            app:wlv_progressValue="20"
+            app:wlv_shapeType="circle"
+            app:wlv_titleCenter="00:00:00"
+            app:wlv_titleCenterColor="#54d6a0"
+            app:wlv_round_rectangle="true"
+            app:wlv_triangle_direction="north"
+            app:wlv_titleCenterSize="64sp"
+            app:wlv_waveAmplitude="45"
+            app:wlv_waveColor="@android:color/background_dark"/>
+
+
+</RelativeLayout>
